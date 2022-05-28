@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box; /*a página se adaptar de acordo com o tamanho da aba, dessa forma todos pegam o elemento*/
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px; /*Tamanho do texto*/
+  font-weight: bold; /*Texto em negrito*/
+}
+
+.container {
+  background-color: rgb(73, 34, 112); /*Cor do fundo*/
+  color: rgb(235, 73, 10); /*Cor do texto*/
+  width: 80%; /* Largura em porcentagem para a página se adaptar de acordo com o tamanho da aba*/
+  margin:auto; /*Posicionar 'auto' o elemento para a página ficar igual dos dois lados, pode ser feita como padding também*/
+  padding-top: 60px; /*Espaçamento do topo*/
+  padding-left: 60px; /*Espaçamento da esquerda*/
+  padding-right: 60px; /*Espaçamento da direita*/
+  padding-bottom: 60px; /*Espaçamento de baixo*/
+  padding: 60px; /*Usado para o geral, espaçamento dentro do conteudo*/
+  border: 7px solid rgb(235, 73, 10) /* É a borda, pode ser feita como o padding também */
+  
+}
+
+.redessociais h2 {
+  text-align: center; /*centraliza o texto*/
+
+}
+
+.redessociais h2:hover{
+  color: red;
+  cursor: pointer; /*Quando passava o mouse por cima ficava em forma de texto, agora fica com o ´ponteiro do mouse*/
+}
+.redessociais ul {
+  padding: 0px; /*Tira o espaço do enter que atrapalhe a centralização
+  list-style: none; /*Tira as bolinhas de lista */
+  text-align: center; 
+
+}
+
+.redessociais ul a /* a linha que vai ser editada sempre tem que ser especificada*/{
+  text-decoration: none; /*tira a linha embaixo do link*/
+  color: black ;
+}
+
+.redessociais ul a:hover /* muda a cor da propriedade quando o mouse fica em cima*/ {
+  color: red;
+}
+
+.redessociais ul a:visited /*mostra que o link já foi visitado*/ {
+  color: blue;
+}
+
+/*Formulário*/
+
+.box {
+  width: ;: 80%;
+  margin: auto;
+}
+
+.formulario {
+  padding-left: 20px;
+}
+
+.formulario .form-div {
+  padding-bottom: 10px;
+}
+
+.formulario .form-div label {
+  display: block;  /* deixa as as linhas mais organização*/
+
+}
+
+.formulario .form-div input /* para aumenta o espaço da entrada*/ {
+  padding: 10px; 
+}
+
+.button {
+  padding: 15px;
+  background-color: blueviolet;
+  color: black;
+  border: 3px solid black;
+}
